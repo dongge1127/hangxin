@@ -1,0 +1,136 @@
+{
+	//A8采购申请
+	"a8cbilltype_PU_CGSQ":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"数量","code":"iqty"},
+            {"title":"价税合计","code":"itotal"},
+            {"title":"部门","code":"departname"},
+ 			{"title":"职员","code":"empname"},
+ 			{"title":"备注","code":"notes"}
+
+	],
+	//A8采购订单
+	"a8cbilltype_PU_CGDD":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"供应商","code":"csupname"},
+            {"title":"数量","code":"iqty"},
+            {"title":"价税合计","code":"itotal"},
+            {"title":"部门","code":"departname"},
+            {"title":"职员","code":"empname"},
+ 			{"title":"备注","code":"notes"}
+	],
+	//A8采购付款申请
+	"a8cbilltype_PUCGFKSQ":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"申请金额","code":"iapptotal"},
+            {"title":"供应商","code":"supname"},
+            {"title":"部门","code":"departname"},
+ 			{"title":"职员","code":"empname"},
+ 			{"title":"备注","code":"notes"}
+
+	],
+	//A8其他出库单
+	"a8cbilltype_STQTCK":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"数量","code":"iqty"},
+            {"title":"部门","code":"departname"},
+            {"title":"经办人","code":"empname"},
+ 			{"title":"备注","code":"cnotes"}
+
+	],
+	//A8库存调拨单
+	"a8cbilltype_STKCDB":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"调拨数量","code":"iqty"},
+            {"title":"调出部门","code":"departname"},
+            {"title":"调入部门","code":"empname"},
+ 			{"title":"备注","code":"cnotes"}
+
+	],
+	//A8借出申请单
+	"a8cbilltype_STJCSQ":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"借出数量","code":"iqty"},
+            {"title":"借出部门","code":"departname"},
+            {"title":"借出人","code":"empname"},
+ 			{"title":"备注","code":"cnotes"}
+
+	],
+	//A8付款单
+	"a8cbilltype_Ap_Payment":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"申请付款金额","code":"iapptotal"},
+            {"title":"部门","code":"departname"},
+            {"title":"职员","code":"empname"},
+ 			{"title":"摘要","code":"notes"},
+ 			{"title":"备注","code":"cnote"}
+	],
+	//A8销售订单 销售类型没有找到对应的字段
+	"a8cbilltype_SAXSDD":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"销售类型","code":"csalcname"},
+            {"title":"数量","code":"iqty"},
+            {"title":"价税合计","code":"itotal"},
+ 			{"title":"部门","code":"departname"},
+ 			{"title":"职员","code":"empname"},
+ 			{"title":"备注","code":"cnotes"}
+	],
+	// A8销售发票
+	"a8cbilltype_SAXSFP":[
+		{"title": "标题","code": "title"},
+		{"title": "单据日期","code": "ddate"},
+		{"title": "业务流程", "code": "cbusprocesscname"},
+		{"title": "销售类型", "code": "csalcname"},
+		{"title": "数量", "code": "iqty"},
+		{"title": "价税合计", "code": "itotal"},
+		{"title": "部门","code": "departname"},
+		{"title": "职员","code": "empname"},
+		{"title": "备注","code": "cnotes"}
+	],
+	//A8内部订单
+	"a8cbilltype_IBNBDD":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"业务类型","code":"cbustype"},
+            {"title":"数量","code":"iqty"},
+            {"title":"价税合计","code":"itotal"},
+ 			{"title":"部门","code":"departname"},
+ 			{"title":"职员","code":"empname"},
+ 			{"title":"备注","code":"notes"}
+	],
+	//A8投标审批表
+	"a8cbilltype_PM_TBSP":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"客户名称","code":"ccustname"},
+            {"title":"项目名称","code":"cprojectname"},
+            {"title":"申请部门","code":"departname"},
+ 			{"title":"申请人员","code":"empname"}
+	],
+	//A8立项申请单
+	"a8cbilltype_PMXMLX":[
+			{"title":"标题","code":"title"},
+			{"title":"单据日期","code":"ddate"},
+            {"title":"项目名称","code":"cprojectname"},
+            {"title":"部门","code":"departname"},
+ 			{"title":"业务人员","code":"empname"}
+	],
+	//A8预算调整单
+	"a8cbilltype_BG_ADJUST":[
+			{"title":"标题","code":"title"},
+			{"title":"调整单号","code":"cbillcode"},
+			{"title":"调整日期","code":"ddate"},
+            {"title":"调整人","code":"cadjustname"},
+            {"title":"预算表名称","code":"cname"},
+ 			{"title":"调整额","code":"idiffvalue"},
+			{"title": "编制机构", "code": "corganname"}
+	]
+}
